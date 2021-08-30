@@ -1,0 +1,79 @@
+table {
+    border-spacing: 20px;
+    
+}
+
+.header1 {
+    border: 1px solid black;
+    padding: 30px;
+    width: 110%;
+    text-align: left;
+    float: left;
+    
+}
+
+.menu1 {
+    border: 1px solid black;
+    text-align: left;
+    padding: 30px;
+    width: 110%;
+    float: left;
+    
+}
+
+.aside1{
+    border: 1px solid black;
+    width: 65px;
+    padding: 80px;
+    text-align: left;
+    float: left;
+    
+}
+
+.aside2{
+    border: 1px solid black;
+    width: 65px;
+    padding: 80px;
+    text-align: left;
+    float: left;
+    display: inline;
+    
+}
+
+.main1{
+    border: 1px solid black;
+    margin-left: 20px;
+    text-align: left;
+    float: left;
+    width: 50vw;
+    padding: 100px; 
+    float: left;
+    
+}
+
+.aside3 {
+    border: 1px solid black;
+    width: 155px;
+    height: 100px;
+    
+    
+}
+
+.footer1{
+    border: 1px solid black;
+    float: left;
+    width: 115%;
+    
+}
+
+.sec1 {
+    border: 1px solid black;
+    width: 50vw;
+    padding: 50px;
+}
+
+.sec2 {
+    border: 1px solid black;
+    width: 50vw;
+    padding: 50px;
+}

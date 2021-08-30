@@ -1,0 +1,108 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+table {
+    border-spacing: 40px;
+    background-color: rgb(100, 179, 248);
+    width: 100%;
+    padding: 50px;
+    
+}
+
+.socialfacebook a {
+    text-align: center;
+    width: 48px;
+    height: 40px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding: 6px;
+    color: #000;
+}
+
+.socialfacebook a:hover {
+    background: #3b5998; color: #fff;
+}
+
+
+.socialinstagram a {
+    text-align: center;
+    width: 48px;
+    height: 40px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    
+    padding: 6px;
+    color: #000;}
+
+
+.socialinstagram a:hover {background: #3f729b; color: #fff;}
+
+
+.socialyoutube a {
+    text-align: center;
+    width: 48px;
+    height: 40px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 6px;
+   
+    padding: 6px;
+    color: #000;}
+
+.socialyoutube a:hover {background: #c4302b; color: #fff;}
+
+
+
+.home a, 
+.blog a,
+.about a, 
+.faq a, 
+.gal a,
+.con a,
+.news a,
+.pri a 
+{
+	position: relative;
+	color: black; 
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none; 
+}
+
+.home a:after, 
+.blog a:after,
+.about a:after,
+.faq a:after,
+.gal a:after,
+.con a:after,
+.news a:after,
+.pri a:after 
+{
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #00a650; 
+	content: "";
+	transition: width 0.3s ease-out; 
+}
+
+.home a:hover:after,td a:focus:after, 
+.blog a:hover:after,td a:focus:after,
+.about a:hover:after,td a:focus:after,
+.faq a:hover:after,td a:focus:after,
+.gal a:hover:after,td a:focus:after,
+.con a:hover:after,td a:focus:after,
+.news a:hover:after,td a:focus:after,
+.pri a:hover:after,td a:focus:after
+{
+	width: 100%; 
+}
